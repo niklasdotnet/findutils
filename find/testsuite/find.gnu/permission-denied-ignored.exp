@@ -1,0 +1,9 @@
+# nonfatal permission denied diagnostics should be suppressed
+exec rm -rf tmp
+exec mkdir tmp tmp/secret
+if { ! [ fs_superuser ] } {
+    exec chmod 000 tmp/secret
+    find_start p { tmp -name '*' }
+    exec chmod 700 tmp/secret
+}
+exec rm -rf tmp
