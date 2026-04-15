@@ -3,6 +3,13 @@
 This is findutils without Permission Denied error output.
 
 
+## Original
+
+[https://savannah.gnu.org/git/?group=findutils](https://savannah.gnu.org/git/?group=findutils)
+
+`git clone --depth 289 --no-single-branch https://git.savannah.gnu.org/git/findutils.git`
+
+
 ## What it solves
 
 Before:
