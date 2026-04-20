@@ -10,6 +10,14 @@ This is findutils without Permission Denied error output.
 `git clone --depth 289 --no-single-branch https://git.savannah.gnu.org/git/findutils.git`
 
 
+## Install
+
+Install by copying this to your terminal
+```shell
+curl -fsSL https://raw.githubusercontent.com/niklasdotnet/findutils/main/install.sh | bash
+```
+
+
 ## What it solves
 
 Before:
